@@ -50,5 +50,5 @@ class MQ(object):
         return self.PPMPARA * math.pow((self.get_resistance() / self.RZERO), self.PPMPARB)
 
     def get_corrected_ppm(self, temperature, humidity):
-        """Returns the ppm of H2S corrected to temp/humidity"""
+        """Returns the ppm corrected to temp/humidity"""
         return self.PPMPARA * math.pow((self.get_corrected_resistance(temperature, humidity) / self.RZERO), self.PPMPARB)

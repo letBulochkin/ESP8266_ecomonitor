@@ -19,6 +19,3 @@ class MQ136(MQ):
         self.THPARA = -0.014
         self.THPARB = -0.0076
         self.THPARC = 1.812
-
-
-

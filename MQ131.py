@@ -13,7 +13,7 @@ class MQ131(MQ):
     def __init__(self, pin):
         self.pin = pin
         self.RLOAD = 4.7  # to be corrected 
-        self.RZERO = 0.0000005638  # to be measured
+        self.RZERO = 1259.11
         self.PPMPARA = 0.4015
         self.PPMPARB = 0.4289
         self.THPARA = -0.0139

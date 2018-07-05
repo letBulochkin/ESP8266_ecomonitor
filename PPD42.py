@@ -94,11 +94,7 @@ def calc():
 
 if __name__ == "__main__":
     
-    p5 = Pin(5, Pin.IN)
-    t = []
-    utime.sleep(2)
-    print("Engage!")
-    # calc()
-
-
-
+    ppd = PPD42(5)
+    conc = ppd.get_concentration()
+    print("Dust concentration: " + conc)
+    

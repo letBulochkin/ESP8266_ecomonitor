@@ -13,7 +13,7 @@ class MQ4(MQ):
     def __init__(self, pin):
         self.pin = pin
         self.RLOAD = 10.0  # to be corrected 
-        self.RZERO = 0.0000005638  # to be measured
+        self.RZERO = 488.177  # to be measured
         self.PPMPARA = 6.9743
         self.PPMPARB = -0.6049
         self.THPARA = -0.0139
